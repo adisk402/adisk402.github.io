@@ -13,7 +13,7 @@ margin: 0 auto 0 auto;
 
 .c{
 	display: inline-block;
-	background: #ffa;
+	background: #fff;
 	margin: 0 15px 50px 15px;
 	font-size: 15px;
 }
@@ -23,7 +23,7 @@ margin: 0 auto 0 auto;
 
 
 
-.c1{width:130px;}
+.c1{width:130px;font-family:helvetica;}
 .c2{width:290px; background: #fff;}
  .c3{width: 450px;}
   .c4{width: 610px;}

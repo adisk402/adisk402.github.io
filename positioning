@@ -1,0 +1,14 @@
+positioning
+
+1. static
+		- all elements are assigneed by default .
+		- elements show up top botom, left to right in the flow of the document
+2. absolute
+		-positions the element at x, y coordinates
+		-takes the document out of the flow of the document
+3. relative
+		- positions the element relative to where it would show up in the flow of the document
+4. fixed
+		- positions the element at the x, y coordinate
+			-relative to the browser window
+		- take element out of the flow of doc
