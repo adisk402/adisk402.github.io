@@ -4,23 +4,43 @@ body{
 	margin: 20px;
 	padding: 0;
 }
+.c{
+	display: inline-block;
+	background: #ffa;
+	margin: 0 15px 50px 15px;
+	font-size: 15px;
+}
+
 .square{
 	margin:0 20px 20px 0;
-	width: 250px;
-	height:250px;
+	width: 287px;
+	height:287px;
 	background: #000;
 	color: #fff;
-	padding:50px;
+	padding:80px;
+	position: relative;
+}
+
+.square2{
+	margin:0 20px 20px 0;
+	width: 287px;
+	height:287px;
+	background: #fff;
+	color: #000;
+	padding:80px;
 	position: relative;
 }
 
 .circle{
 	/*margin:0 20px 20px 0;*/
-	height:50px;
-	width:50px;
+	height:100px;
+	width:100px;
 	background:#f00;
 	border-radius:100%;
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	margin:0 20px 20px 0;
+
 }
+
+a{ 
+
+ }
