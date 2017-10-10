@@ -17,7 +17,7 @@ body{
 
 
 .button-wrapper{
-	position:fixed;
+	position:absolute;
 	margin:0 auto;
 }
 
@@ -33,6 +33,15 @@ body{
 }
 
 .q{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_2.png);
+	transition: all 500ms ease;
+	margin: 20px;
+}
+
+.d{
 	width:175px;
 	height:175px;
 	border-radius:100%;
