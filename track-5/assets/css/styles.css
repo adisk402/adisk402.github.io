@@ -1,14 +1,14 @@
+*{ vertical-align: top;}
 body{
 	background: #f00;
 }
 
-.c{
+.wrapper{
 	display: inline-block;
-	padding:0 20px 0 20px;
-	margin:0 0 50px 0;
-	background: #f1f1f1;
-	font-size: 20px;
-}
+	background: #ffa;
+	margin: 0 auto 0 auto;
+	position: relative;
+	}
 
 .c1{ width:25%; }
 .c2{ width:50%; }
@@ -17,19 +17,71 @@ body{
 
 
 .button-wrapper{
-	position: fixed;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
+	position:fixed;
+	margin:0 auto;
 }
 
 .button{
 	width:175px;
 	height:175px;
 	border-radius:100%;
-	background: url(../img/button.png);
+	background: url(../img/yb_1.png);
 	transition: all 500ms ease;
+	margin: 20px;
+
 }
+}
+
+.q{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_2.png);
+	transition: all 500ms ease;
+	margin: 20px;
+}
+	
+
+.w{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_3.png);
+	transition: all 500ms ease;
+	margin: 20px;
+	
+}
+
+.e{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_4.png);
+	transition: all 500ms ease;
+	margin: 20px;
+
+}
+
+.r{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_5.png);
+	transition: all 500ms ease;
+	margin: 20px;
+
+}
+
+.t{
+	width:175px;
+	height:175px;
+	border-radius:100%;
+	background: url(../img/yb_6.png);
+	transition: all 500ms ease;
+	margin: 20px;
+
+}
+
 
 .button:hover{
 	background-position: -175px 0;
