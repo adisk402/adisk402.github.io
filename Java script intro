@@ -1,0 +1,23 @@
+Data types:
+string. ex: "And then he said, 'I'm really happy.' "(the quotes are important)
+number. ex: 7 89 001(intigers) 78.48394994(float)
+boolean. ex: True or false statemnt. 0/1 false/true
+arry. ex: a form of saving different forms of information. you use brackets. ex: {'socks', 'underwear', 'bras'}; or
+{'socks',
+ 'underwear',
+ 'bras'}; *(the semi column is important)
+
+Varriable:
+a dynamic container that stores data.
+
+Function:
+a block of code that can be executed at any time
+
+Logic:
+If/else
+
+=
+>
+>=
+<
+<=

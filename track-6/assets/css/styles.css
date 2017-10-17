@@ -1,0 +1,15 @@
+body {font-family: 'Nosifer', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Nova Flat', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Righteous', cursive;
+font-size: 24px;
+}
+
+.c {
+	margin: 0 15px 50px 15px;
+	display: inline-block;
+}
+a {
+	color: #FF0000;
+}
