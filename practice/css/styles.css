@@ -1,0 +1,48 @@
+
+body {
+  overflow:auto;
+}
+
+
+
+
+.square, /*div.square*/ {
+    position: relative;
+    /* so all the squares form a grid */
+    float: left;
+    /* assuming we are doing a 4x4 grid of squares */
+    width: 1%;
+    max-width: 1%;
+    /* vh stands for Viewport Height */
+    height: 1vh;
+    max-height: 1vh;
+    /* so no content overflows the container */
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.square {
+  background: url(../img/5.png);
+}
+
+.square div {
+  background: url(../img/5.png);
+  width: 5%;
+  height: 5%;
+}
+body {
+  background-color: cyan;
+}
+
+
+
+
+
+
+
+
+
