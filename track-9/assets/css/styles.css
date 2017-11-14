@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+vertical-align:top;
+}
+
+body{
+	font-family:Courier New;
+	font-size: 20px;
+	color: #fff;
+	background:url(../img/1.gif);
+	background-size: 1300px;
+}
+
+a {
+	color:#fff;
+	text-decoration: none;
+	size: 10px;
+	cursor:pointer;
+}
+
+.q {
+	margin-top:40px;
+	margin-left:50px;
+	width: 50px;
+}
+.w {
+	margin-top:20px;
+	margin-left:60px;
+	position:absolute;
+}
+
+.e {
+	margin-top:20px;
+	margin-left:1020px;
+	position:absolute;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
