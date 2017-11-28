@@ -1,47 +1,89 @@
-*{box-sizing: border-box}
+**{box-sizing: border-box;
+vertical-align:top;
+}
 
 body{
-	margin: 20px;
+	margin: 0;
 	padding: 0;
-}
-.c{
-	display: inline-block;
-	background: #ffa;
-	margin: 0 15px 50px 15px;
-	font-size: 15px;
+	font-size:0;
+
 }
 
-.square{
-	margin:0 20px 20px 0;
-	width: 287px;
-	height:287px;
+html, body{height:100%;}
+.wrapper{
+	width:100%;
+	height:100%;
+}
+
+.column{
+	width:50%;
+	display:inline-block;
+	height:100%;
+	font-size:20px;
+	padding:30px;
+}
+
+.content{
+	background:#f1f1f1;
+}
+
+ul,li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.nav-item{
+	border:1px solid #000;
+	padding: 10px 20px;
+	display:inline-block;
+	font-size: 20px;
+	margin: 0 15px 15px 0;
+	cursor: pointer;
+}
+
+.nav-item:hover, .nav-item.active{
 	background: #000;
-	color: #fff;
-	padding:80px;
-	position: relative;
-}
-
-.square2{
-	margin:0 20px 20px 0;
-	width: 287px;
-	height:287px;
-	background: #fff;
-	color: #000;
-	padding:80px;
-	position: relative;
-}
-
-.circle{
-	/*margin:0 20px 20px 0;*/
-	height:100px;
-	width:100px;
-	background:#f00;
-	border-radius:100%;
-	margin:0 20px 20px 0;
-
-}
-
-a{ 
 	color:#fff;
-	text-decoration: none;
- }
+}
+
+.content.green {background: #B8E986;}
+.content.blue {background: #4A90E2;}
+.content.red {background: #D0021B;}
+.content.sol-lewitt {background: url('../img/sol-lewitt.gif');}
+.content.about{background: #ffa;}
+
+.lightbox.beyonce {
+	width: 100%;
+	height:100%;
+	background: #000;
+	color:#fff;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.slay{
+	font-size: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.close-button {
+	position:absolute;
+	top:-5px;
+	right:30px;
+	font-size:100px;
+	font-family: Helvetica, Ariel, sans-serif;
+	cursor:pointer;
+}
+.audio{
+	opacity:0;
+}
+
+.hide{
+	display:none;
+}
+

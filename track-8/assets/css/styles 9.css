@@ -7,9 +7,9 @@ body{
 	font-size: 40px;
 	margin-top: 300px;
 	margin-left: 20px;
-	background:url('../img/8.png');
-	background-size: 1300px;
-	background-repeat: repeat;
+	background:url('../img/9.png');
+	background-size: 3600px;
+	background-position:-1500px
 }
 
 a {
